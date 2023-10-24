@@ -17,7 +17,7 @@ import Deposit from "./Pages/Deposit";
 import Sidebar from "./components/Sidebar";
 import Transactions from "./Pages/Transactions";
 import UserPage from "./Pages/UserPage";
-import Commission from "./Pages/commision";
+import Commission from "./Pages/Commisions";
 
 function Home() {
   const navigate = useNavigate();
