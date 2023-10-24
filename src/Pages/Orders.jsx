@@ -10,9 +10,9 @@ function TableHeading({ allChecked, toggleAllChecked }) {
           onChange={toggleAllChecked}
         />
       </th>
-      <th className="py-5 px-4 text-left font-medium">User Name</th>
-      <th className="py-5 px-4 text-left font-medium">Payment Method</th>
-      <th className="py-5 px-4 text-left font-medium">ID</th>
+      <th className="py-5 px-4 text-left font-medium">Order ID</th>
+      <th className="py-5 px-4 text-left font-medium">Tracking ID</th>
+      <th className="py-5 px-4 text-left font-medium">Name</th>
       <th className="py-5 px-4 text-left font-medium">Date</th>
       <th className="py-5 px-4 text-left font-medium">Status</th>
       <th className="py-5 px-4 text-left font-medium">Total price</th>
@@ -32,7 +32,7 @@ function TableContent({ isChecked, toggleChecked }) {
       <td className="p-4 ">645c-825623fe6756</td>
       <td className="p-4 w-[357px]">01.01.2022</td>
       <td className="p-4 w-[357px]">
-        <div className="rounded-lg bg-[#E9FAEF] w-max px-2 py-1 font-medium text-[#24D164]">
+        <div className="rounded-lg bg-[#E9FAEF] w-max px-2 py-2 font-medium text-xs text-[#24D164]">
           <p>Continuing</p>
         </div>
       </td>
@@ -97,7 +97,7 @@ export default function Orders() {
         <div className="py-4 border-b-2 px-6">
           <div>
             <h1 className="text-2xl font-bold">Orders</h1>
-            <p className="text-xs">Check your progress</p>
+            <p className="text-xs font-normal">Check your progress</p>
           </div>
         </div>
       </section>

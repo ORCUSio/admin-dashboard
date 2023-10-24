@@ -32,7 +32,7 @@ function TableContent({ isChecked, toggleChecked }) {
       <td className="p-4 ">645c-825623fe6756</td>
       <td className="p-4 w-[357px]">01.01.2022</td>
       <td className="p-4 w-[357px]">
-        <div className="rounded-lg bg-[#E9FAEF] w-max px-2 py-1 font-medium text-[#24D164]">
+        <div className="rounded-lg bg-[#E9FAEF] w-max px-2 py-2 font-medium text-xs text-[#24D164]">
           <p>Continuing</p>
         </div>
       </td>

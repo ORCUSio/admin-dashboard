@@ -37,7 +37,9 @@ function LoGin() {
                   </p>
                 </div>
               </div>
-              <button className="butt text-[16px] w-[100%]">Sign in</button>
+              <Link to={"/main/Dashboard"}>
+                <button className="butt text-[16px] w-[100%]">Log in</button>
+              </Link>
 
               <div className=" top-[50px] left-[260px] w-[100%] flex flex-row items-center justify-start gap-[16px] text-center text-xs">
                 <div className="flex-1 relative box-border h-px border-t-[1px] border-solid border-greyscale-200" />

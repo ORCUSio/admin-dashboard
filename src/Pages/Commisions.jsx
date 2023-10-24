@@ -76,21 +76,3 @@ export default function Commission() {
     </section>
   );
 }
-
-function wz() {
-  return (
-    <section className="flex flex-col w-3/4 font-semibold">
-      <section className="w-[85vw]">
-        <div className="py-4 border-b-2 px-6">
-          <div>
-            <h1 className="text-2xl font-bold">Orders</h1>
-            <p className="text-xs">Check your progress</p>
-          </div>
-        </div>
-      </section>{" "}
-      <section className="px-6 py-2 min-w-[90vw] flex justify-center ">
-        {/* iske niche daal -> Outlet */}
-      </section>
-    </section>
-  );
-}

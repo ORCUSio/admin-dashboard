@@ -4,7 +4,6 @@ import {
   Outlet,
   RouterProvider,
 } from "react-router-dom";
-import { useState } from "react";
 import { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
@@ -21,7 +20,11 @@ import UserPage from "./Pages/UserPage";
 import Commission from "./Pages/commision";
 
 function Home() {
-  console.log("home");
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate("/login");
+  }, []);
   return (
     <div className=" flex gap-4 w-[100vw] h-[100vh] justify-center items-center">
       <Link to={"/main"}>
